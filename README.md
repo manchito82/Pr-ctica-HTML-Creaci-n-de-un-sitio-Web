@@ -142,7 +142,7 @@
         <div class="product-list">
             <div class="product">
                 <h3>Catan</h3>
-                <img src="https://www.google.com/imgres?q=catan&imgurl=https%3A%2F%2Fdevirinvestments.s3.eu-west-1.amazonaws.com%2Fimg%2Fcatalog%2Fproduct%2F8436017220100-1200-face3d-copy.jpg&imgrefurl=https%3A%2F%2Fdevir.es%2Fcatan&docid=L4R4b89mYGj55M&tbnid=oUhZGtzZ0vL3eM&vet=12ahUKEwiIgu2CmvCJAxWFK_sDHaLfKb0QM3oECGYQAA..i&w=1200&h=1200&hcb=2&ved=2ahUKEwiIgu2CmvCJAxWFK_sDHaLfKb0QM3oECGYQAA" alt="Catan - Juego de mesa" />
+                <img src="https://github.com/manchito82/Pr-ctica-HTML-Creaci-n-de-un-sitio-Web/blob/main/catan.jfif" alt="Catan - Juego de mesa" />
                 <p><strong>Precio:</strong> $29.99</p>
                 <a href="#">Comprar</a>
             </div>
