@@ -1,43 +1,10 @@
-# Pr-ctica-HTML-Creaci-n-de-un-sitio-Web
+
 
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda de Juegos de Mesa - Inicio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            margin: 20px 0;
-            text-align: center;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #333;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
 </head>
 <body>
 
@@ -46,10 +13,10 @@
 </header>
 
 <nav>
-    <a href="index.html" title="Página de inicio">Inicio</a>
-    <a href="productos.html" title="Ver productos">Productos</a>
-    <a href="acerca.html" title="Acerca de nuestra tienda">Acerca de</a>
-    <a href="contacto.html" title="Contáctanos">Contacto</a>
+  <li><a href="index.html" title="Página de inicio">Inicio</a></li>
+    <li><a href="productos.html" title="Ver productos">Productos</a></li>
+    <li><a href="acerca.html" title="Acerca de nuestra tienda">Acerca de</a></li>
+    <li><a href="contacto.html" title="Contáctanos">Contacto</a></li>
 </nav>
 
 <main>
@@ -57,7 +24,7 @@
         <h2>Explora nuestra selección de juegos de mesa</h2>
         <p><strong>Los mejores juegos para compartir con amigos y familia.</strong></p>
         <p>¡Descubre nuevos desafíos y horas de diversión!</p>
-        <img src="img/juego-inicio.jpg" alt="Juegos de mesa" style="width:100%;max-width:600px;">
+        <img src="https://github.com/manchito82/Pr-ctica-HTML-Creaci-n-de-un-sitio-Web/blob/main/juegos%20de%20mesa.jfif" alt="Juegos de mesa" style="width:100%;max-width:600px;">
     </section>
 </main>
 
@@ -73,55 +40,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda de Juegos de Mesa - Productos</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            margin: 20px 0;
-            text-align: center;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #333;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        .product-list {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 20px;
-            padding: 20px;
-        }
-        .product {
-            background-color: white;
-            padding: 10px;
-            border: 1px solid #ddd;
-            text-align: center;
-        }
-        .product img {
-            width: 100%;
-            height: auto;
-        }
-    </style>
 </head>
 <body>
 
@@ -130,10 +48,10 @@
 </header>
 
 <nav>
-    <a href="index.html" title="Página de inicio">Inicio</a>
-    <a href="productos.html" title="Ver productos">Productos</a>
-    <a href="acerca.html" title="Acerca de nuestra tienda">Acerca de</a>
-    <a href="contacto.html" title="Contáctanos">Contacto</a>
+    <li><a href="index.html" title="Página de inicio">Inicio</a></li>
+    <li><a href="productos.html" title="Ver productos">Productos</a></li>
+    <li><a href="acerca.html" title="Acerca de nuestra tienda">Acerca de</a></li>
+    <li><a href="contacto.html" title="Contáctanos">Contacto</a></li>
 </nav>
 
 <main>
@@ -148,13 +66,13 @@
             </div>
             <div class="product">
                 <h3>Ticket to Ride</h3>
-                <img src="img/ticket-to-ride.jpg" alt="Ticket to Ride - Juego de mesa" />
+                <img src="https://github.com/manchito82/Pr-ctica-HTML-Creaci-n-de-un-sitio-Web/blob/main/ticket%20to%20ride.jfif" alt="Ticket to Ride - Juego de mesa" />
                 <p><strong>Precio:</strong> $34.99</p>
                 <a href="#">Comprar</a>
             </div>
             <div class="product">
                 <h3>Monopoly</h3>
-                <img src="img/monopoly.jpg" alt="Monopoly - Juego de mesa" />
+                <img src="https://github.com/manchito82/Pr-ctica-HTML-Creaci-n-de-un-sitio-Web/blob/main/monopoly.jfif" alt="Monopoly - Juego de mesa" />
                 <p><strong>Precio:</strong> $19.99</p>
                 <a href="#">Comprar</a>
             </div>
@@ -175,39 +93,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda de Juegos de Mesa - Acerca de</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            margin: 20px 0;
-            text-align: center;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #333;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
 </head>
 <body>
 
@@ -216,10 +101,10 @@
 </header>
 
 <nav>
-    <a href="index.html" title="Página de inicio">Inicio</a>
-    <a href="productos.html" title="Ver productos">Productos</a>
-    <a href="acerca.html" title="Acerca de nuestra tienda">Acerca de</a>
-    <a href="contacto.html" title="Contáctanos">Contacto</a>
+    <li><a href="index.html" title="Página de inicio">Inicio</a></li>
+    <li><a href="productos.html" title="Ver productos">Productos</a></li>
+    <li><a href="acerca.html" title="Acerca de nuestra tienda">Acerca de</a></li>
+    <li><a href="contacto.html" title="Contáctanos">Contacto</a></li>
 </nav>
 
 <main>
@@ -242,39 +127,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda de Juegos de Mesa - Contacto</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            margin: 20px 0;
-            text-align: center;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #333;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
 </head>
 <body>
 
@@ -283,10 +135,11 @@
 </header>
 
 <nav>
-    <a href="index.html" title="Página de inicio">Inicio</a>
-    <a href="productos.html" title="Ver productos">Productos</a>
-    <a href="acerca.html" title="Acerca de nuestra tienda">Acerca de</a>
-    <a
+    <li><a href="index.html" title="Página de inicio">Inicio</a></li>
+    <li><a href="productos.html" title="Ver productos">Productos</a></li>
+    <li><a href="acerca.html" title="Acerca de nuestra tienda">Acerca de</a></li>
+    <li><a href="contacto.html" title="Contáctanos">Contacto</a></li>
+    
 
 
 
