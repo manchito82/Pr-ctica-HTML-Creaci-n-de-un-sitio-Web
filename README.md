@@ -14,7 +14,7 @@
 
 <nav>
   <li><a href="index.html" title="Página de inicio">Inicio</a></li>
-    <li><a href="productos.html" title="Ver productos">Productos</a></li>
+    <li><a href="https://github.com/manchito82/Pr-ctica-HTML-Creaci-n-de-un-sitio-Web/blob/main/productos%20html" title="Ver productos">Productos</a></li>
     <li><a href="acerca.html" title="Acerca de nuestra tienda">Acerca de</a></li>
     <li><a href="contacto.html" title="Contáctanos">Contacto</a></li>
 </nav>
